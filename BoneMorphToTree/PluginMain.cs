@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace BoneMorphToTree
 {
-    public class BoneMorphToTree : IPEPlugin
+    public class PluginMain : IPEPlugin
     {
         private bool disposedValue;
 
-        public string Name => "BoneMorphToTree";
+        public string Name => "ボーンモーフからボーンを生成";
 
         public string Version => "1.0";
 
-        public string Description => "BoneMorphToTree";
+        public string Description => "ボーンモーフを再現したボーン構造を生成する";
 
         public IPEPluginOption Option => new PEPluginOption(false, true);
 
